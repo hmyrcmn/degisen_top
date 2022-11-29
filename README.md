@@ -62,8 +62,7 @@ arkada kalan yol parçasının yeni konumunu öndeki yol parsının z konumunun 
 
 `"   if (other.CompareTag("ball")) GetComponent<Renderer>().material.color = other.GetComponent<Renderer>().material.color; "` tagı ball olan nesnenin renginin player a atanmasını saglıyor  <br/>
   <br/>
-  <br/>![oyundan görüntüler](
-https://cdn-images-1.medium.com/max/1200/1*prHQyZK19NM-6BllFOu1zA.png) <br/>
+  <br/>![oyundan görüntüler](https://cdn-images-1.medium.com/max/1200/1*v0vhSAmpqKsnIHBjzKn1JA.png) <br/>
   
 **# ObstacleControl fonksiyonu :**
 ayni renk topla ile eşleştiği durumda büyüyen ,kendinden farklı renk topla eşleştiği durumda boyutu küçülen fonsiyon .
