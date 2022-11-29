@@ -56,17 +56,17 @@ arkada kalan yol parçasının yeni konumunu öndeki yol parsının z konumunun 
     {
         canObstacleControl = true; flag kontrolü ile canın sürekli azaltılamsı durumu kontrol edildi ObstacleControl fonksiyonunda can azalma  dan sonra flag  false olarak setlendi
     }"` 
-    
+     <br/>
         
-** player_sc  OnTriggerEnter fonksiyonu: **
+**# player_sc  OnTriggerEnter fonksiyonu: **
 
 `"   if (other.CompareTag("ball")) GetComponent<Renderer>().material.color = other.GetComponent<Renderer>().material.color; "` tagı ball olan nesnenin renginin player a atanmasını saglıyor  <br/>
- 
-** ObstacleControl fonksiyonu : **
+  <br/>
+**# ObstacleControl fonksiyonu :**
 ayni renk topla ile eşleştiği durumda büyüyen ,kendinden farklı renk topla eşleştiği durumda boyutu küçülen fonsiyon .
-
+ <br/>
  eşlesme durumundaki topların renk kontrolunü if blokları ile ben tarafından sağlanarak   can ve puan yönetimi bu fonksiyon içerisinde gerçekleştirildi.
- 
+  <br/>
   `"void GameOver()
     {
         
@@ -79,11 +79,11 @@ ayni renk topla ile eşleştiği durumda büyüyen ,kendinden farklı renk topla
     
     <br/>![oyundan görüntüler](https://cdn-images-1.medium.com/max/1200/1*prHQyZK19NM-6BllFOu1zA.png)
  <br/>
-    uı entegrasyonu sağlandı (kullanıcı paneli ) farklı ekran boyutuna göre boyut değişmemesi için scale with screen size ile sağlandı (1920 -1080 )uı panelide aynı boyutlara düzenlendi.
-    gain_point_sc : oyun yolunun 15 olması sebebiyle -14 +14 x konumları arasında rondom x üretilmesi sağlandı.
+   <br/>  uı entegrasyonu sağlandı (kullanıcı paneli ) farklı ekran boyutuna göre boyut değişmemesi için scale with screen size ile sağlandı (1920 -1080 )uı panelide aynı boyutlara düzenlendi.
+   <br/>  gain_point_sc : oyun yolunun 15 olması sebebiyle -14 +14 x konumları arasında rondom x üretilmesi sağlandı.
 
 
-
+ <br/> <br/> <br/> <br/>
 ekip arkadaşım irem tarafından: 
 player_movement_sc : klavye girdileri ile oyuncunun hareketlenmesinin kontrolu  Input.GetAxis ile yapıldı . 
 blok ile temsaında fizik kuralı uygulandı ve oyuncunun konumu geri çekildi .
