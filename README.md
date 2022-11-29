@@ -1,7 +1,13 @@
 # degisen_top
+<img width="580" alt="image" src="https://user-images.githubusercontent.com/75569106/204596148-c610b271-c95b-461b-8fc4-d13a2c43f57d.png">
+
+<br/>![oyundan görüntüler](
+https://cdn-images-1.medium.com/max/1200/1*coIelHPopam5hBhJY0IGZQ.png) <br/>
 unity oyun programlama dersi Arrow tuşlarıyla renklere göre cismin boyutunun ve renginin  değiştiği oyun
 oyun 5 can içeren gerekli koşullarda boyutu büyüyüp küçülebilen puan odaklı bir platfrom oyunudur.
 
+# PROJE GENEL ÖZET
+// https://simmer.io/@humeyracimen/degisen-top
 manager_sc : rastegle konum ve sürede random olarak ürtilen nesnelerin kontrolunun saglandıgı kısım 
 [SerializeField]
     private GameObject şeklinde unity penceresinden erişim yapıldı ve gerekli komponentler (sarı top, kırmızı top ,yeşil top ve siyah blok) verildi.
