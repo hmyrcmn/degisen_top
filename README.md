@@ -97,3 +97,4 @@ uı tasarımı ve fonksiyonları yapıldı pauseMenu_sc.
 
 
 
+
