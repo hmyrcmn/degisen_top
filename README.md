@@ -7,7 +7,6 @@ https://cdn-images-1.medium.com/max/1200/1*coIelHPopam5hBhJY0IGZQ.png) <br/>
 unity oyun programlama dersi Arrow tuşlarıyla renklere göre cismin boyutunun ve renginin  değiştiği oyun
 oyun 5 can içeren gerekli koşullarda boyutu büyüyüp küçülebilen puan odaklı bir platfrom oyunudur.
 
-
 # PROJE KULLANIMI
 **1.yol :** Proje dosyasını  indirdikten sonra unity ile görüntüleyebilir ,gerekli talimatlar doğrultusunda oyunu oynayabilirsiniz.
 
@@ -89,7 +88,7 @@ player_movement_sc : klavye girdileri ile oyuncunun hareketlenmesinin kontrolu  
 blok ile temsaında fizik kuralı uygulandı ve oyuncunun konumu geri çekildi .
 yoldan oyuncunun çıkması durumunun kontolu sağlandı ve x konumunda yolun orta noktasına konumlandırıldı .
 ObstacleControl fonksiyonunda  temas durumlarına göre player boyut ayarlaması sağlandı
-uı tasarımı ve fonksiyonları yapıldı pauseMenu_sc.
+uı tasarımı ve fonksiyonları yapıldı pauseMenu_sc.<br/><br/>
 [irem atak repo](https://github.com/irematak/unity_3d_platform_oyunu-)
 
 
