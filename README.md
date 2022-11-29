@@ -76,8 +76,7 @@ ayni renk topla ile eşleştiği durumda büyüyen ,kendinden farklı renk topla
         
     } "`
     
-    <br/>![oyundan görüntüler2]
-    (https://cdn-images-1.medium.com/max/1200/1*prHQyZK19NM-6BllFOu1zA.png)<br/>
+    <br/>[oyundan görüntüler2](https://cdn-images-1.medium.com/max/1200/1*prHQyZK19NM-6BllFOu1zA.png)<br/>
    <br/>  uı entegrasyonu sağlandı (kullanıcı paneli ) farklı ekran boyutuna göre boyut değişmemesi için scale with screen size ile sağlandı (1920 -1080 )uı panelide aynı boyutlara düzenlendi.
    <br/>  **gain_point_sc :** oyun yolunun 15 olması sebebiyle -14 +14 x konumları arasında rondom x üretilmesi sağlandı.
 
