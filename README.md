@@ -17,22 +17,24 @@ oyun 5 can içeren gerekli koşullarda boyutu büyüyüp küçülebilen puan oda
     private GameObject şeklinde unity penceresinden erişim yapıldı ve gerekli komponentler (sarı top, kırmızı top ,yeşil top ve siyah blok) verildi.
 
     start fonksiyonu içerisinde çagırılan fonksiyonlar belirlenen zaman aralıklarında fonksiyonların çagırılaması için gerekli komponentler: 
-    `"  StartCoroutine(manager_bigger()); //** kırmızı topların rastgele z konumunda yer almalarını ve belirli zaman aralıklarında oluşsturulmasını saglar **<br/>
-        StartCoroutine(manager_smaller()); //** yeşil topların rastgele z konumunda yer almalarını ve belirli zaman aralıklarında oluşsturulmasını saglar** <br/>
-        StartCoroutine(manager_block()); // **siyah blokların rastgele zkonumunda yer almalarını ve belirli zaman aralıklarında oluşsturulmasını saglar** <br/>
-        StartCoroutine(manager_bonus()); " ` // **sarı topların  rastgele z konumunda yer almalarını ve belirli zaman aralıklarında oluşsturulmasını saglar **<br/>
+    //**ilgili komponentlerin rastgele z konumunda yer almalarını ve belirli zaman aralıklarında oluşsturulmasını saglar **<br/>
+    `"  StartCoroutine(manager_bigger()); // kırmızı
+        StartCoroutine(manager_smaller()); //** yeşil
+        StartCoroutine(manager_block()); // **siyah blokların 
+        StartCoroutine(manager_bonus()); " ` <br/>
+        // **sarı topların  rastgele z konumunda yer almalarını ve belirli zaman aralıklarında oluşsturulmasını saglar **<br/>
         <br/> Bu şekilde ayarlanan süre bazında random konumlarda ilgili komponenti oluşturan kod blogu tasarlandı. 
         random konum ve fonksiyonun çağırılma süresinin ayarlamalarına ait kulllanılan kodlar.
         
-        ** kırmızı topların rastgele x konumunda yer almalarını ve belirli zaman aralıklarında oluşsturulmasını saglar **<br/>
+        **kırmızı topların rastgele x konumunda yer almalarını ve belirli zaman aralıklarında oluşsturulmasını saglar**<br/>
     `"      IEnumerator manager_bigger(){
         while(true){
             dynamic_z+=Random.Range(5,20); // ilgili komponentlerin ne kadar ileriki konumda (z konumu ) bulunmalarını belirler
             Vector3 position = new Vector3(Random.Range(-5f, 5f), 0,transform.position.z+dynamic_z );
             **// yeni komponentin konumlandırılması (x,y,z) için:
-            <br/>x: -7f /+7f boyutundaki yol (tag: ground1/2) aralıklarından birinde konumlanmasını sağlar , oyuncunun sag sol tuş hareketlerini kullandiğı kısım 
-            <br/>y: sabit y konumunda devam etmesini sağlar 
-            <br/> z: olusturulan dinamik konumuda ileriyi temsil eder oyuncunun yukarı tuşunu kullandıgı kısımdır (oyunda geriye dönem yoktur ! bu özellik engellenmiştir.) ilgili komponentler **
+        <br/>x: -7f /+7f boyutundaki yol (tag: ground1/2) aralıklarından birinde konumlanmasını sağlar , oyuncunun sag sol tuş hareketlerini kullandiğı kısım .
+        <br/>y: sabit y konumunda devam etmesini sağlar 
+        <br/> z: olusturulan dinamik konumuda ileriyi temsil eder oyuncunun yukarı tuşunu kullandıgı kısımdır (oyunda geriye dönem yoktur ! bu özellik engellenmiştir.) ilgili komponentler **
             GameObject bigger = Instantiate(bigger_pf, position, Quaternion.identity); // ilgili nesnenin prefabdan çekilmesi 
             bigger.transform.parent = bigger_container.transform;
             yield return new WaitForSeconds(1.0f);   // ilgili kodun ne kadar zaman aralıklarında çalıştırılacagının yönetimi
