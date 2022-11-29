@@ -90,7 +90,7 @@ blok ile temsaında fizik kuralı uygulandı ve oyuncunun konumu geri çekildi .
 yoldan oyuncunun çıkması durumunun kontolu sağlandı ve x konumunda yolun orta noktasına konumlandırıldı .
 ObstacleControl fonksiyonunda  temas durumlarına göre player boyut ayarlaması sağlandı
 uı tasarımı ve fonksiyonları yapıldı pauseMenu_sc.
-
+[irem atak repo](https://github.com/irematak/unity_3d_platform_oyunu-)
 
 
 
